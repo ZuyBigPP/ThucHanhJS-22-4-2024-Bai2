@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu đồ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Website Giới Thiệu Các Dạng Biểu Đồ</h1>
+
+    <section id="scatter-plot">
+        <h2>Scatter Plot</h2>
+        <p>Scatter plot là một loại biểu đồ biểu diễn mối liên hệ tương quan giữa hai biến số theo tọa độ toán học. Biểu đồ phân tán biểu hiện mối tương quan giữa nguyên nhân và kết quả hoặc giữa các yếu tố ảnh hưởng đến chất lượng. Trong đó, trục tung Oy là các giá trị của biến được dự đoán (biến phụ thuộc) và trục hoành Ox là các giá trị của biến dùng để đưa ra dự đoán (biến độc lập).</p>
+        <canvas id="scatter-plot-chart"></canvas>
+        <script src="scatterPlot.js"></script>
+    </section>
+
+
+    <section id="line-chart">
+        <h2>Line Chart</h2>
+        <p>Line chart là một trong những loại biểu đồ thể hiện dữ liệu số liệu theo thời gian. Nó sử dụng đường thẳng để biểu thị sự thay đổi của dữ liệu trong khoảng thời gian nào đó. Line chart có thể giúp ta hiểu được xu hướng và sự thay đổi của dữ liệu trong một khoảng thời gian nhất định.</p>
+        <canvas id="line-chart-canvas"></canvas>
+        <script src="lineChart.js"></script>
+    </section>
+
+    <section id="bar-chart">
+        <h2>Bar Chart</h2>
+        <p>Bar chart là biểu đồ hiển thị nhiều thanh giá theo thời gian. Mỗi thanh hiển thị cách giá di chuyển trong một khoảng thời gian xác định.</p>
+        <canvas id="bar-chart-canvas"></canvas>
+        <script src="barChart.js"></script>
+    </section>
+
+    <section id="pie-chart">
+        <h2>Pie Chart</h2>
+        <p>Pie chart là biểu đồ hình tròn, dạng bánh được chia nhỏ thành nhiều phần có màu sắc hoặc ký hiệu khác nhau ứng với các chủ thể được so sánh. Trong biểu đồ này, mỗi phần sẽ được biểu diễn bằng số liệu (thường là dưới dạng phần trăm) cho một đối tượng cụ thể.</p>
+        <canvas id="pie-chart-canvas"></canvas>
+        <script src="pieChart.js"></script>
+    </section>
+
+    <section id="doughnut-chart">
+        <h2>Doughnut Chart</h2>
+        <p>Donut chart là một dạng biểu đồ sẵn có trong Excel. Dạng biểu đồ này biểu diễn mối quan hệ giữa các phần với tổng số, nơi mà tất cả các mảnh ghép lại được tổng 100%. Biểu đồ này phù hợp nhất để biểu diễn dữ liệu với lượng các đầu mục không lớn (từ 2-5 mục).</p>
+        <canvas id="doughnut-chart-canvas"></canvas>
+        <script src="doughnutChart.js"></script>
+    </section>
+
+    <section id="bubble-chart">
+        <h2>Bubble Chart</h2>
+        <p>Bubble chart là một biểu đồ phổ biến để biểu thị dữ liệu có mối quan hệ giữa ba chiều: hoành độ, tung độ và kích cỡ. Bubble chart cho phép bạn giải thích mối quan hệ giữa hai biến và thể hiện cả mức độ sự liên quan giữa hai biến đó. Kích cỡ của các điểm trên biểu đồ có thể được sử dụng để biểu thị một giá trị thứ ba.</p>
+        <canvas id="bubble-chart-canvas"></canvas>
+        <script src="bubbleChart.js"></script>
+    
+</body>
+</html>
